@@ -10,13 +10,12 @@
 # Step 3 : Check the all types of input files
 
 def sum_of_digit(n):
-    if int(n / 10) <= 10:
-        if n <= 9:
-            return n
-        return int(n/10)
+    assert n >= 0 and int(n) == n, 'Not supported for non negative digits'
+    if n == 0:
+        return n
     return int(n%10) + sum_of_digit(int(n/10))
 
-print(f"sum of digits : {sum_of_digit(0)}")
+print(f"sum of digits : {sum_of_digit(4)}")
 
 
 
