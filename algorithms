@@ -1,0 +1,17 @@
+Algorithms are set of instructions that are performed by computer programs to accomplish a certain task.
+
+Examples:
+Djkstra Algorithm, Triange Data Clustering Technique, etc
+
+What makes a good algorithm?
+ - 1. Correct
+ - 2. Efficient
+
+
+ Types of Algorithms:
+ 1. Simple recursive Algorithm
+ 2. Divide and Conquer Algorithm
+ 3. Dynamic Programming Algorithm
+ 4. Greedy Algorithm
+ 5. Brute Force Algorithm 
+ 6. Randomized Algorithm 

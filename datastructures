@@ -1,0 +1,19 @@
+Data structure is basically different ways to organize the data in our computers.
+
+Examples:
+    Stack , Queue, etc
+
+Types of Data Structures
+ - can be broadly classified in two category
+
+ CATEGORY A - Primitive
+ CATEGORY B - Non Primitive
+
+ Primitive - Integer, Float, Character, String, Boolean
+
+ Non Primitive can again be classified in two categories:
+  - Linear
+  - Non Linear
+
+  Linear - arrays , linked list , stack , queue
+  Non Linear - graph, tree

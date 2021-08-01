@@ -1,0 +1,21 @@
+Why are Data Structures and Algorithms important?
+ - To develop memory and time efficient applications. 
+ 
+- We developers will take some data (input), process it and generate some output. 
+For example, let us consider a google map application, where
+ 1.input is the source and destination i.e; starting place and where we need to go (destination)
+ 2.then google will process this input 
+ 3.and generate the best path for us to go from place 1 to place 2. 
+
+Processing is where we use the Data Structures and Algorithms. 
+Use the graph data structures and djkstra algorithms in the above case to generate an efficient path for us to go from place 1 to place 2. 
+*** google in reality, use n no of complex algorithms and datastructures to accomplish the above mentioned task, this is just an example 
+to understand why Data Structures and Algorithms are so important.
+
+
+consider another example , where you go to a public library and found out that books are arranged in random order and then if you 
+need to find a book , it will be time consuming.
+On the other hand, if the librarian had arranged the books in an ordered way , then finding the book will take much less time. 
+
+- Arranging the books is where data structure will be used.
+- Finding the book is where algorithm will be used.
