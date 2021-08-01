@@ -1,0 +1,37 @@
+Recursion is a way to solve a particular sets of problems by calling the function itself. 
+Thinking recursively is an important tool to have as many problems can be solved in an easier way using recursion not necessarily
+efficient. 
+
+
+def recursive_function(parameters):
+    if base_condition_satisfied:
+        exit the function, returning a value
+    else:
+        recursive_function(parameters)
+
+
+When to use Recursion?
+1.  When you see that a problem can be easily breakdown into similar sub problem
+2.  When you don't really care about time and space much , as recursion comes with a cost.
+3.  When traversing a tree, recursion is useful
+4.  With memoization, we can reduce the time complexity 
+5.  Use it if input is small.
+
+When not to use Recursion?
+1. If time and space complexity matters
+2. Recursion will use more memory, keep in mind. 
+3. Recursion can be slow , especially for large inputs
+
+
+HOW TO WRITE RECURSIVE METHODS FOR ANY GIVEN PROBLEM?
+ 
+  STEP 1  -  Identify the recursive case. 
+    for example, consider the factorial equation below:
+    n! = n * (n-1) * (n-2) * (n-3) * ... * 2 * 1
+    n! = n * (n-1)!
+
+  STEP 2 - Identify the Base Case to stop the execution.
+    0!= 1
+
+  STEP 3 - Make sure that you take into consideration all types of input 
+   for example , what happens if we use negative number of floating point number as an input
